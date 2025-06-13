@@ -6,11 +6,11 @@ import NotFound from './components/NotFound';
 import Login from './components/Login';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/naidu'>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='*' element={<NotFound/>}/>
-      <Route path='login' element={<Login/>}/>
+      <Route path='/login' element={<Login/>}/>
     </Routes>
     </BrowserRouter>
   );
