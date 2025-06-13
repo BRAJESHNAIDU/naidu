@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/naidu/static/css/main.ce394da5.css",
-    "main.js": "/naidu/static/js/main.28d45a81.js",
+    "main.js": "/naidu/static/js/main.b6cb58e2.js",
     "index.html": "/naidu/index.html",
     "main.ce394da5.css.map": "/naidu/static/css/main.ce394da5.css.map",
-    "main.28d45a81.js.map": "/naidu/static/js/main.28d45a81.js.map"
+    "main.b6cb58e2.js.map": "/naidu/static/js/main.b6cb58e2.js.map"
   },
   "entrypoints": [
     "static/css/main.ce394da5.css",
-    "static/js/main.28d45a81.js"
+    "static/js/main.b6cb58e2.js"
   ]
 }
