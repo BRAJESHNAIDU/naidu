@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  position: relative;
+  top: 50px;
+  left: 550px;
+}
+
+
+#form{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    box-shadow: 1px 1px 10px gray;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    left: 590px;
+    top: 150px;
+    background:linear-gradient(90deg, blue,aqua)
+}
+
+h2{
+  position: relative;
+  top: 30px;
+  left: 110px;
+  color: white;
+  font-size: 30px;
+}
+input{
+  position: relative;
+  width: 280px;
+  height: 50px;
+  border: none;
+  outline: none;
+  left: 10px;
+  border-radius: 5px;
+  caret-color: red;
+}
+input::placeholder{
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+button{
+  position: relative;
+  border-radius: 5px;
+  top: -20px;
+  width: 280px;
+  left: 10px;
+  background:linear-gradient(50deg,yellow,orange);
+  color: white;
+  font-size: 23px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
